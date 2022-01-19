@@ -8,5 +8,6 @@
 !.vim/
 !.vimrc
 !.tmux.conf
+!.oh-my-zsh
 
 # ...even if they are in subdirectories
