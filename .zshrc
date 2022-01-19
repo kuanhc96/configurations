@@ -40,4 +40,4 @@ function container_logs () {
   docker logs -f $(docker ps --format "{{.ID}}" --filter "name=$1")
 }
 
-alias vim='nvim'
+alias -g vim='nvim'
