@@ -45,4 +45,5 @@ function container_logs () {
 alias vim='nvim'
 alias gotohome='cd ~/'
 alias gotoroot='cd "$(git rev-parse --show-toplevel)"'
+plugins+=(zsh-vi-mode)
 
