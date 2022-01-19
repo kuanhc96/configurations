@@ -7,5 +7,6 @@
 !.zshrc
 !.vim/
 !.vimrc
+!.tmux.conf
 
 # ...even if they are in subdirectories
