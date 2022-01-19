@@ -40,4 +40,6 @@ function container_logs () {
   docker logs -f $(docker ps --format "{{.ID}}" --filter "name=$1")
 }
 
-alias -g vim='nvim'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+alias vim='nvim'
