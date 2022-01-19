@@ -43,3 +43,6 @@ function container_logs () {
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias vim='nvim'
+alias gotohome='cd ~/'
+alias gotoroot='cd "$(git rev-parse --show-toplevel)"'
+
