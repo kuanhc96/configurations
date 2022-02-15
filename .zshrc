@@ -13,6 +13,7 @@ ZSH_THEME="robbyrussell"
 
 plugins=(
   git
+  poetry
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -45,5 +46,15 @@ function container_logs () {
 alias vim='nvim'
 alias gotohome='cd ~/'
 alias gotoroot='cd "$(git rev-parse --show-toplevel)"'
+alias getout='cd ~/workspace/exodus'
+alias gotode='cd ~/workspace/decanter4'
+alias gl='git log | vim -R -'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gs='git status'
+alias gd='git diff'
+
 plugins+=(zsh-vi-mode)
 
+export PATH="$HOME/.poetry/bin:$PATH"
